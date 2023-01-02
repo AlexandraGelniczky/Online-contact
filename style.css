@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+  }
+  
+  .profile-card {
+    width: 580px;
+    max-width: calc(100vw - 10px);
+    font-family: 'Raleway Dots';font-size: 15px;
+    background-color: hsla(0, 10%, 100%, .6);
+    border-radius: 30px;
+    box-shadow: hsla(0, 0%, 0%, .9) 10px 10px 80px;
+    color: hsl(0, 0%, 15%);
+  }
+  
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('assets/wedding.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .head, .links {
+    text-align: center;
+  }
+  
+  .head {
+    font-size: 17px;
+  }
+  
+  .links {
+    font-size: 12px;
+    color: hsl(0, 0%, 40%);
+  }
+  
+  .head, .content {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .content {
+    border-top: 2px double hsla(0, 0%, 70%, .5);
+    padding: 4% 7%;
+  }
+  
+  .head, .about {
+    margin-bottom: 2%;
+  }
+  
+  .profile-image {
+    margin-top: -60px;
+  }
+  
+  img {
+    width: 120px;
+    height: 120px;
+    border-radius: 30%;
+    padding: 1px;
+    background-color: #888;
+    transition: all 0.5s ease-in-out;
+    filter: grayscale(80%);
+  }
+  
+  img:hover {
+    transform: scale(1.1);
+    filter: grayscale(20%);
+  }
+  
+  ul {
+    list-style-type: none;
+    color: #3e3e40;
+  }
+  
+  li {
+    display: inline;
+  }
+  
+  h1, h2 {
+    color: hsl(0, 0%, 30%);
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    font-family: Quattrocento;
+  }
+  
+  p {
+    font-family: Quattrocento;
+  }
+  
+  .about {
+    letter-spacing: 2px;
+  }
+  
+  .l {
+    font-size: 12px;
+    color: hsl(0, 0%, 40%);
+  }
+  
+  .fa {
+    color: hsl(0, 0%, 40%);
+    letter-spacing: 7px;
+    font-size: 15px;
+  }
+  
